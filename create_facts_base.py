@@ -1,6 +1,6 @@
 import csv
 
-with open("players.csv", newline='', encoding='utf-8') as csvfile:
+with open("new_players.csv", newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     player_id = 1
 
